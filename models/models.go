@@ -8,5 +8,5 @@ type Student struct {
 
 type Test struct {
 	Id   string `json:"id"`
-	name string `json:"name"`
+	Name string `json:"name"`
 }
