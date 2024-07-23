@@ -3,10 +3,12 @@
 { pkgs, ... }: {
   # Which nixpkgs channel to use.
   channel = "stable-23.11"; # or "unstable"
+  services.docker.enable = true;
   # Use https://search.nixos.org/packages to find packages
   packages = [
     pkgs.go
     pkgs.protobuf
+    pkgs.docker
     pkgs.grpc-tools
     pkgs.nodejs_20
     pkgs.nodePackages.nodemon
