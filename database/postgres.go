@@ -4,7 +4,8 @@ import (
 	"context"
 	"database/sql"
 	"log"
-	_"github.com/lib/pq"
+
+	_ "github.com/lib/pq"
 
 	"github.com/platzi/go-platzi-protobuf/models"
 )
