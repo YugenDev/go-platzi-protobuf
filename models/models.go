@@ -6,3 +6,7 @@ type Student struct {
 	Age  int32  `json:"age"`
 }
 
+type Test struct {
+	Id   string `json:"id"`
+	name string `json:"name"`
+}
