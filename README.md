@@ -1,3 +1,3 @@
-This is a simple hello, world demonstration web server.
+Docker postgres DB initialization
 
-It serves version information on /version and answers any other request like /name by saying "Hello, name!".
+docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
