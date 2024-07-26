@@ -11,7 +11,7 @@ message Test {
 
 message Question {
     string id = 1;
-    string response = 2;
+    string answer = 2;
     string question = 3;
     string test_id = 4;
 }
